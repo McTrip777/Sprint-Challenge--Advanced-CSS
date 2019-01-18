@@ -174,6 +174,8 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: fixed;
+  width: 100%;
 }
 .nav-tag h1 {
   font-size: 4rem;
@@ -187,6 +189,10 @@ p {
   font-size: 1.6rem;
   margin: 0 1.5rem;
 }
+.nav-tag nav a:hover {
+  color: #000092;
+  font-size: 3rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -199,6 +205,7 @@ footer {
 }
 .home .intro .main-img {
   border-radius: 1rem;
+  margin-top: 8.8rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -216,6 +223,9 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+.home .space-images .blast:active {
+  order: 1;
 }
 .home .visit-planets {
   padding: 15px;
