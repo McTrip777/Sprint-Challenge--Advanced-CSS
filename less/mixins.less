@@ -1,1 +1,18 @@
 // Mixins Here
+
+//basic flex
+.custom-flex(@justify, @align){
+    display:flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+//button
+.custom-btn(@width, @height, @bg-color, @font-color) {
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    color: @font-color;
+    border: 1px solid black;
+    cursor: pointer;
+}
